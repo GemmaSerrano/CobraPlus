@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/newConcept"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    tools:context=".activities.NewConcept">
+
+    <TextView
+        android:id="@+id/txtTitleAppRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_title"
+        android:textColor="@color/title_blue_800"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgLogoRegister" />
+
+    <ImageView
+        android:id="@+id/imgLogoRegister"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtManagementConcepts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Nuevo concepto"
+        android:textColor="@color/title_blue_800"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTitleAppRegister" />
+
+
+
+
+    <TextView
+        android:id="@+id/txtBaseConcept"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Concepto base"
+        android:textColor="@color/title_blue_800"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtManagementConcepts" />
+
+    <Spinner
+        android:id="@+id/spBaseConcept"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtBaseConcept" />
+
+
+    <TextView
+        android:id="@+id/txtNameConceptLabel"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Nombre concepto"
+        android:textColor="@color/title_blue_800"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spBaseConcept" />
+
+    <EditText
+        android:id="@+id/etNameConcept"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#BDBDBD"
+        android:ems="10"
+        android:hint="nombre del concepto"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtNameConceptLabel"/>
+
+
+    <TextView
+        android:id="@+id/txtCompany"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Empresa"
+        android:textColor="@color/title_blue_800"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNameConcept" />
+
+    <EditText
+        android:id="@+id/etCompany"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#BDBDBD"
+        android:ems="10"
+        android:hint="empresa"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtCompany"/>
+
+    <TextView
+        android:id="@+id/txtUnitCalculation"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Unidad de cálculo"
+        android:textColor="@color/title_blue_800"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etCompany" />
+
+    <EditText
+        android:id="@+id/etUnitCalculation"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#BDBDBD"
+        android:ems="10"
+        android:hint="unidad de cálculo"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtUnitCalculation" />
+
+
+
+    <TextView
+        android:id="@+id/txtAmount"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Importe €"
+        android:textColor="@color/title_blue_800"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etUnitCalculation" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#BDBDBD"
+        android:hint="importe €"
+        android:inputType="numberDecimal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtAmount" />
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSave"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/button_blue"
+        android:text="Guardar"
+        android:textColor="@color/text_button_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAmount"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCancel"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/button_blue"
+        android:text="Cancelar"
+        android:textColor="@color/text_button_white"
+        app:layout_constraintTop_toBottomOf="@+id/etAmount"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

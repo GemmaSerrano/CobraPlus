@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/newConcept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        tools:context=".activities.NewReport">
+
+        <TextView
+            android:id="@+id/txtTitleAppRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_title"
+            android:textColor="@color/title_blue_800"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgLogoRegister" />
+
+        <ImageView
+            android:id="@+id/imgLogoRegister"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/ic_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txtNewReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/title_new_report"
+            android:textColor="@color/title_blue_800"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtTitleAppRegister" />
+
+
+
+
+        <TextView
+            android:id="@+id/txtReportName"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_report_name"
+            android:textColor="@color/title_blue_800"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtNewReport" />
+
+        <Spinner
+            android:id="@+id/spReportName"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtReportName" />
+
+
+        <TextView
+            android:id="@+id/txtReportCompany"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_company"
+            android:textColor="@color/title_blue_800"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spReportName" />
+
+        <Spinner
+            android:id="@+id/spReportCompany"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtReportCompany" />
+
+
+
+
+        <TextView
+            android:id="@+id/txtStartDate"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_start_date"
+            android:textColor="@color/title_blue_800"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spReportCompany" />
+
+        <EditText
+            android:id="@+id/etStartDate"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#BDBDBD"
+            android:hint="@string/label_start_date"
+            android:focusable="false"
+            android:clickable="true"
+            android:cursorVisible="false"
+            android:inputType="none"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtStartDate"/>
+
+        <TextView
+            android:id="@+id/txtEndDate"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_end_date"
+            android:textColor="@color/title_blue_800"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etStartDate" />
+
+        <EditText
+            android:id="@+id/etEndDate"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#BDBDBD"
+            android:hint="@string/label_end_date"
+            android:focusable="false"
+            android:clickable="true"
+            android:cursorVisible="false"
+            android:inputType="none"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtEndDate" />
+
+
+
+        <TextView
+            android:id="@+id/txtGroupBy"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/label_group_by"
+            android:textColor="@color/title_blue_800"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etEndDate" />
+
+
+
+        <Spinner
+            android:id="@+id/spGroupBy"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtGroupBy" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGenerate"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="@string/btn_generate"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spGroupBy"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="@string/btn_cancel"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintTop_toBottomOf="@+id/spGroupBy"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

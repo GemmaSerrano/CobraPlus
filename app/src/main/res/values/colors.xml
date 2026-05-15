@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--  Colores Texto títulos  -->
+    <color name="title_blue_800">#1565C0</color>
+    <!--  Botones / encabezado  -->
+    <color name="button_blue">#1565C0</color>
+    <color name="text_button_white">#FFFFFFFF</color>
+
+
+</resources>

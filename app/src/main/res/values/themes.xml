@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CobraPlus" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Color principal -->
+        <item name="colorPrimary">@color/title_blue_800</item>
+
+        <!-- Barra superior -->
+        <item name="android:statusBarColor">@color/title_blue_800</item>
+
+        <!-- Barra inferior (opcional) -->
+        <item name="android:navigationBarColor">@color/title_blue_800</item>
+
+        <!-- Para que iconos sean blancos -->
+        <item name="android:windowLightStatusBar">false</item>
+
+
+    </style>
+
+    <style name="Theme.CobraPlus" parent="Base.Theme.CobraPlus" />
+</resources>

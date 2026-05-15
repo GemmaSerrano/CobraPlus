@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuViewReport"
+        android:title="@string/title_view_report"
+        android:icon="@drawable/ic_ver_informe"/>
+
+    <item
+        android:id="@+id/menuExportPdf"
+        android:title="@string/btn_export_pdf"
+        android:icon="@drawable/ic_pdf"/>
+
+    <item
+        android:id="@+id/menuExportExcel"
+        android:title="@string/btn_export_excel"
+        android:icon="@drawable/ic_excel"/>
+
+    <item
+        android:id="@+id/menuDeleteReport"
+        android:title="@string/btn_delete"
+        android:icon="@drawable/ic_delete"/>
+
+</menu>

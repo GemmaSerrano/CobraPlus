@@ -1,0 +1,80 @@
+<resources>
+    <string name="default_web_client_id">274222452131-hqahkf9r9p1rabna0hoka418obgppvk6.apps.googleusercontent.com</string>
+
+    <string name="app_name">CobraPlus</string>
+    <string name="logo">Logo CobraPlus</string>
+    <string name="app_title">CobraPlus</string>
+
+    <string name="title_register">Registro</string>
+    <string name="title_login">Inicio sesión</string>
+    <string name="title_profile">Mi Perfil</string>
+
+    <string name="label_email">Email</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_password">Contraseña</string>
+    <string name="label_new_password">Nueva contraseña</string>
+    <string name="label_current_password">Contraseña actual</string>
+    <string name="label_confirm_passw">Confirmar contraseña</string>
+
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_register">Registrarse</string>
+    <string name="action_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="action_login_google">Acceder con google</string>
+    <string name="action_create_acount">Crear cuenta</string>
+    <string name="action_back_to_login">Volver a Login</string>
+
+    <string name="title_new_record">Nuevo registro de actividad</string>
+    <string name="title_edit_record">Modificar registro de actividad</string>
+    <string name="title_concepts">Gestión de conceptos</string>
+    <string name="title_admin_panel">Panel de administración</string>
+    <string name="title_configuration">Configuración</string>
+    <string name="title_help">Ayuda</string>
+    <string name="title_howToContent">¿Cómo usar la aplicación?</string>
+    <string name="title_ToggleFAQ">Preguntas frecuentes</string>
+
+
+    <string name="label_date">Fecha</string>
+    <string name="label_company">Empresa</string>
+    <string name="label_concept">Concepto</string>
+    <string name="label_quantity">Cantidad</string>
+    <string name="label_comment">Comentarios</string>
+
+    <string name="title_reports">Gestión de informes</string>
+    <string name="title_new_report">Nuevo informe</string>
+    <string name="title_report">Informe</string>
+    <string name="title_confirm_report">Listado de registros para informe</string>
+    <string name="title_view_report">Ver informe</string>
+
+    <string name="label_report_name">Nombre del informe</string>
+    <string name="label_period">Periodo</string>
+    <string name="label_total">Total</string>
+    <string name="label_start_date">Fecha de inicio</string>
+    <string name="label_end_date">Fecha de fin</string>
+
+
+    <string name="label_group_by">Agrupar por</string>
+    <string name="group_by_none">Sin agrupar</string>
+    <string name="group_by_concept">Concepto</string>
+    <string name="group_by_date">Fecha</string>
+    <string name="group_by_company">Empresa</string>
+
+
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_return">Volver</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_generate">Generar</string>
+    <string name="btn_save_changes">Guardar cambios</string>
+
+    <string name="btn_register_activity">Registrar actividad</string>
+    <string name="btn_help">Ayuda</string>
+    <string name="btn_new_concept">Nuevo concepto</string>
+    <string name="btn_new_report">Nuevo informe</string>
+    <string name="btn_export_pdf">Exportar PDF</string>
+    <string name="btn_export_excel">Exportar Excel</string>
+
+
+</resources>

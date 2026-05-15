@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "274222452131",
+    "project_id": "cobraplus-c8b73",
+    "storage_bucket": "cobraplus-c8b73.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274222452131:android:1788b73be632f218459e16",
+        "android_client_info": {
+          "package_name": "com.gema.cobraplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274222452131-mcep543j8ifve78l8tdai17njsk053ka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gema.cobraplus",
+            "certificate_hash": "7143676d0f8ad76ab582194c63e4a54f5ca3719e"
+          }
+        },
+        {
+          "client_id": "274222452131-s66f0j0vvmfg92dfa45ubliej3uneu6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gema.cobraplus",
+            "certificate_hash": "5a9571734578e67dae05b8e2b779cafb313b8368"
+          }
+        },
+        {
+          "client_id": "274222452131-hqahkf9r9p1rabna0hoka418obgppvk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb9anrmUbvVuwiA0Sz3G7c3C-NPzr6Nw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274222452131-hqahkf9r9p1rabna0hoka418obgppvk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

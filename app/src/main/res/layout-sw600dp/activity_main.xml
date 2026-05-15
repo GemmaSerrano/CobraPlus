@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        tools:context=".activities.MainActivity">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/ic_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_name"
+            android:textColor="@color/title_blue_800"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgLogo" />
+
+
+        <TextView
+            android:id="@+id/txtMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bienvenido, "
+            android:textColor="@color/title_blue_800"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtTittle" />
+
+        <Button
+            android:id="@+id/btnActivityRegister"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="Registrar actividad"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtMain" />
+
+        <Button
+            android:id="@+id/btnSeeReports"
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="Ver informes"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnActivityRegister" />
+
+        <TextView
+            android:id="@+id/txtConfiguration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="CONFIGURACIÓN"
+            android:textColor="@color/title_blue_800"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.150"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnSeeReports" />
+
+        <Button
+            android:id="@+id/btnManagementConcepts"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="68dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="Gestión de conceptos"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnSeeReports" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="Perfil"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnManagementConcepts" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="Ayuda"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnProfile" />
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/button_blue"
+            android:text="Cerrar sesión"
+            android:textColor="@color/text_button_white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnHelp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
