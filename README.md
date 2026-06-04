@@ -14,6 +14,19 @@ The application replaces manual Excel or paper-based tracking systems with a clo
 
 ## Features
 
+### Administrator Features
+- Base concept management
+- Base report management
+- Firebase database supervision
+
+<details>
+  <summary><b>🎬 View Admin Demo Video</b></summary>
+  <br>
+  <p align="center">
+    <video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_admin.mp4" width="100%" controls></video>
+  </p>
+</details>
+
 ### User Features
 - Personal salary concept management
 - Daily activity registration
@@ -21,10 +34,15 @@ The application replaces manual Excel or paper-based tracking systems with a clo
 - PDF and Excel export
 - Secure personal data access
 
-### Administrator Features
-- Base concept management
-- Base report management
-- Firebase database supervision
+  <details>
+  <summary><b>🎬 View User Demo Video</b></summary>
+  <br>
+  <p align="center">
+    <video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_user.mp4" width="100%" controls></video>
+  </p>
+</details>
+
+
 
 ## Security
 
