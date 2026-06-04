@@ -20,11 +20,11 @@ The application replaces manual Excel or paper-based tracking systems with a clo
 - Firebase database supervision
 
 <details>
-  <summary><b>🎬 View Admin Demo Video</b></summary>
-  <br>
-  <p align="center">
-    <video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_admin.mp4" width="100%" controls></video>
-  </p>
+<summary><b>🎬 View Admin Demo Video</b></summary>
+<br>
+<p align="center">
+<video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_admin.mp4" width="100%" controls></video>
+</p>
 </details>
 
 ### User Features
@@ -34,12 +34,12 @@ The application replaces manual Excel or paper-based tracking systems with a clo
 - PDF and Excel export
 - Secure personal data access
 
-  <details>
-  <summary><b>🎬 View User Demo Video</b></summary>
-  <br>
-  <p align="center">
-    <video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_user.mp4" width="100%" controls></video>
-  </p>
+<details>
+<summary><b>🎬 View User Demo Video</b></summary>
+<br>
+<p align="center">
+<video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_user.mp4" width="100%" controls></video>
+</p>
 </details>
 
 
