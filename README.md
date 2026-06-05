@@ -23,7 +23,7 @@ The application replaces manual Excel or paper-based tracking systems with a clo
 <summary><b>🎬 View Admin Demo Video</b></summary>
 <br>
 <p align="center">
-<video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_admin.mp4" width="100%" controls></video>
+<video src="https://github.com/user-attachments/assets/24fc7a15-65eb-43b7-9449-ece1a816f9a6" width="100%" controls></video>
 </p>
 </details>
 
@@ -38,7 +38,7 @@ The application replaces manual Excel or paper-based tracking systems with a clo
 <summary><b>🎬 View User Demo Video</b></summary>
 <br>
 <p align="center">
-<video src="https://github.com/GemmaSerrano/CobraPlus/releases/download/demos_app/demo_user.mp4" width="100%" controls></video>
+<video src="https://github.com/user-attachments/assets/a3d8434d-81ae-4cba-b77c-edfce7f529b4" width="100%" controls></video>
 </p>
 </details>
 
